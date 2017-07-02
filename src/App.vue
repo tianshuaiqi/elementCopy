@@ -1,7 +1,8 @@
 <template>
     <div id="app">
         <header style="background: #ccc">
-            <img src="./assets/logo.png" style="width: 80px;height: 80px;margin-left: 80px;text-align: left; display:block;">
+            <img src="./assets/logo.png" style="width: 80px;height: 80px;margin-left: 80px;text-align: left; display:inline-block;">
+            <p style="display:inline-block;font-weight: bold;">A Vue UI Component -- copy</p>
         </header>
         <div class="main-container">
             <div class="menuBox">
