@@ -9,7 +9,9 @@ import axios from 'axios'
 
 require('@/ui/entry.js');
 import 'normalize.css'
+
 Vue.config.productionTip = false;
+
 Vue.prototype.$axios = axios;
 
 
