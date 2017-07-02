@@ -1,0 +1,135 @@
+/* theme */
+$default-color: #ffffff;
+$primary-color: #20a0ff;
+/* layout */
+.cc-col-24{
+	width: 100%;
+}
+.cc-col-23{
+	width: 95.83333%;
+}
+.cc-col-22{
+	width: 91.66667%;
+}
+.cc-col-21{
+	width: 87.5%;
+}
+.cc-col-20{
+	width: 83.33333%;
+}
+.cc-col-19{
+	width: 79.16667%;
+}
+.cc-col-18{
+	width: 75%;
+}
+.cc-col-17{
+	width: 70.83333%;
+}
+.cc-col-16{
+	width: 66.66667%;
+}
+.cc-col-15{
+	width: 62.5%;
+}
+.cc-col-14{
+	width: 58.33333%;
+}
+.cc-col-13{
+	width: 54.16667%;
+}
+.cc-col-12{
+	width: 50%;
+}
+.cc-col-11{
+	width: 45.83333%;
+}
+.cc-col-10{
+	width: 41.66667%;
+}
+.cc-col-9{
+	width: 37.5%;
+}
+.cc-col-8{
+	width: 33.33333%;
+}
+.cc-col-7{
+	width: 29.16667%;
+}
+.cc-col-6{
+	width: 25%;
+}
+.cc-col-5{
+	width: 20.83333%;
+}
+.cc-col-4{
+	width: 16.66667%;
+}
+.cc-col-3{
+	width: 12.5%;
+}
+.cc-col-2{
+	width: 8.33333%;
+}
+.cc-col-1{
+	width: 4.16667%;
+}
+/* button */
+.cc-button{
+	display: inline-block;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #bfcbd9;
+	border-color: #c4c4c4;
+	color: #1f2d3d;
+	text-align: center;
+	box-sizing: border-box;
+	outline: none;
+	margin: 0;
+	padding: 10px 15px;
+	font-size: 14px;
+	border-radius: 4px;
+
+}
+.cc-button-default{
+	color: #000;
+	background-color: $default-color;
+	border-color: #ccc;
+}
+.cc-button-primary{
+	color: #fff;
+	background-color: $primary-color;
+	border-color: $primary-color;
+}
+.cc-button-text{
+	color: $primary-color;
+	background: none;
+	border: none;
+}
+/* input */
+.cc-input{
+	position: relative;
+	font-size: 14px;
+	display: inline-block;
+}
+/* cc-title */
+.cc-title{
+	
+	font-size: 18px;
+	font-weight: bold;
+}
+/* cc-code */
+.cc-code-container{
+	padding-left: 35px;
+
+	& .cc-code-introduce{
+
+	}
+	& .cc-code-content{
+		border: 1px solid #eaeefb;
+		border-radius: 4px;
+		padding: 16px 22px;
+	}
+}
